@@ -23,7 +23,7 @@
 	 */
 	/** These are examples, add your own models here
 	 *
-	 * @property user_model     $user_model
+	 * @property user_model     $user_model,$user
 	 * @property data_model     $data_model
 	 * @property products_model $products_model
 	 * @property movie_model    $movie_model

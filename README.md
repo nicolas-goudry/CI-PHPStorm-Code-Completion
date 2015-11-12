@@ -1,29 +1,30 @@
-Code Completion for CodeIgniter 3 projects in PHPStorm
-===========================================
-
-#### This repository contains helper files for code completion in phpStorm with CodeIgniter 3.
-
-Please read comments before pulling a request
--------------------------------------------------------
+# Code Completion for CodeIgniter 3 projects in PHPStorm
+##### This repository contains helper files for code completion in phpStorm with CodeIgniter 3.
 
 CodeIgniter source https://github.com/bcit-ci/CodeIgniter
 
-## Basic Instructions
-Load your actual project, then you have 2 options, set include path or add content root (Your choice)
+## Installation instructions
 
-**Option 1 =**
-File > Settings > Directories > Add Content Root > Select the directory in phpStorm-CC-helpers that is relevant > mark Resource Root
+After loading your project, you have two options :
+* Set an include path
+* Add a content root
 
-**Option 2 =**
-In the project window right click External Libraries > Configure PHP Include Paths
-Then add the path to the phpStorm-CC-helpers that is relevant
+**Include path**
 
-### You have to mark those files as plain text
+Go to `File` > `Settings` > `Project` > `Directories`
+Click on `Add Content Root`, select `CI-PHPStorm-Code-Completion` directory and mark it as `Resource Root`
+
+**Content root**
+
+In the project explorer, right click on `External Libraries` then select `Configure PHP Include Paths`. Add the path to the `CI-PHPStorm-Code-Completion` and apply.
+
+**Warning! You have to mark those files as plain text to make code completion works**
 * [project]/system/core/Controller.php
 * [project]/system/core/Model.php
 * [project]/system/database/DB_active_rec.php
 
-You should now have code completion for Core CodeIgniter Classes.
+Core CodeIgniter Classes should now be available to code completion.
 
-### Make your models available to code completion
-Add your models to the documentation block in my_models.php
+## Make your models available to code completion
+
+Add your models to the documentation block in my_models.php.
