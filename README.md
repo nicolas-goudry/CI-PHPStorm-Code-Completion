@@ -1,7 +1,8 @@
 # Code Completion for CodeIgniter 3 projects in PHPStorm
 ##### This repository contains helper files for code completion in phpStorm with CodeIgniter 3.
 
-Original project : https://github.com/topdown/phpStorm-CC-Helpers 
+Original project : https://github.com/topdown/phpStorm-CC-Helpers
+
 CodeIgniter source https://github.com/bcit-ci/CodeIgniter
 
 ## Installation instructions
