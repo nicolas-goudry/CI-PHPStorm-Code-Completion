@@ -2,6 +2,7 @@
 ##### This repository contains helper files for code completion in phpStorm with CodeIgniter 3.
 
 Original project : https://github.com/topdown/phpStorm-CC-Helpers
+
 CodeIgniter source https://github.com/bcit-ci/CodeIgniter
 
 ## Installation instructions
@@ -18,6 +19,8 @@ Click on `Add Content Root`, select `CI-PHPStorm-Code-Completion` directory and 
 **Content root**
 
 In the project explorer, right click on `External Libraries` then select `Configure PHP Include Paths`. Add the path to the `CI-PHPStorm-Code-Completion` and apply.
+
+
 
 **Warning! You have to mark those files as plain text to make code completion works**
 * [project]/system/core/Controller.php
