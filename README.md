@@ -1,4 +1,4 @@
-# Code Completion for CodeIgniter 3 projects in PHPStorm
+# Code Completion for CodeIgniter 3 projects in Intellij IDEA & PHPStorm
 ##### This repository contains helper files for code completion in phpStorm with CodeIgniter 3.
 
 Original project : https://github.com/topdown/phpStorm-CC-Helpers
@@ -23,7 +23,7 @@ In the project explorer, right click on `External Libraries` then select `Config
 **Warning! You have to mark those files as plain text to make code completion works**
 * [project]/system/core/Controller.php
 * [project]/system/core/Model.php
-* [project]/system/database/DB_active_rec.php
+* ~~[project]/system/database/DB_active_rec.php~~
 
 Core CodeIgniter Classes should now be available to code completion.
 
